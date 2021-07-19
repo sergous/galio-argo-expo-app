@@ -9,6 +9,7 @@ import {
   ArticleFeedV1,
   Card,
   BaseComponents,
+  Dashboard,
 } from "../components/galio";
 
 export default function TabOneScreen() {
@@ -16,7 +17,8 @@ export default function TabOneScreen() {
   // return <ArticleCover />;
   // return <ArticleFeedV1 />;
   // return <Card />;
-  return <BaseComponents />;
+  // return <BaseComponents />;
+  return <Dashboard />;
 }
 
 const styles = StyleSheet.create({
