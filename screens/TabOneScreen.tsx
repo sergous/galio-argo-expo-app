@@ -3,10 +3,11 @@ import { StyleSheet } from "react-native";
 
 import EditScreenInfo from "../components/EditScreenInfo";
 import { Text, View } from "../components/Themed";
-import { Article } from "../components/galio";
+import { Article, ArticleCover } from "../components/galio";
 
 export default function TabOneScreen() {
-  return <Article />;
+  // return <Article />;
+  return <ArticleCover />;
 }
 
 const styles = StyleSheet.create({
