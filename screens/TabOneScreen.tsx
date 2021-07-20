@@ -13,6 +13,15 @@ import {
   OrderConfirmation,
 } from "../components/galio";
 
+import {
+  Articles,
+  Home,
+  Onboarding,
+  Pro,
+  Profile,
+  Register,
+} from "../components/argon/screens";
+
 export default function TabOneScreen() {
   // return <Article />;
   // return <ArticleCover />;
@@ -20,7 +29,8 @@ export default function TabOneScreen() {
   // return <Card />;
   // return <BaseComponents />;
   // return <OrderConfirmation />;
-  return <Dashboard />;
+  // return <Dashboard />;
+  return <Register />;
 }
 
 const styles = StyleSheet.create({
