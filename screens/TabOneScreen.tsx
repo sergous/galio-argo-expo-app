@@ -10,6 +10,7 @@ import {
   Card,
   BaseComponents,
   Dashboard,
+  OrderConfirmation,
 } from "../components/galio";
 
 export default function TabOneScreen() {
@@ -18,6 +19,7 @@ export default function TabOneScreen() {
   // return <ArticleFeedV1 />;
   // return <Card />;
   // return <BaseComponents />;
+  // return <OrderConfirmation />;
   return <Dashboard />;
 }
 
