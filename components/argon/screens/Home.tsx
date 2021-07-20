@@ -3,7 +3,7 @@ import { StyleSheet, Dimensions, ScrollView } from "react-native";
 import { Block, theme } from "../galio-framework";
 
 import { Card } from "../";
-import articles from "./Articles";
+import articles from "../../../constants/argon/articles";
 const { width } = Dimensions.get("screen");
 
 class Home extends React.Component {

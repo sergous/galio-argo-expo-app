@@ -13,7 +13,7 @@ import { Button } from "../";
 import { Images, argonTheme } from "../../../constants/argon";
 import { HeaderHeight } from "../../../constants/argon/utils";
 
-const { width, height } = Dimensions.get("screen");
+const { width, height } = Dimensions.get("window");
 
 const thumbMeasure = (width - 48 - 32) / 3;
 

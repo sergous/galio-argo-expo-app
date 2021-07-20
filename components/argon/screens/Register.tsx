@@ -11,7 +11,7 @@ import { Block, Checkbox, Text, theme } from "../galio-framework";
 import { Button, Icon, Input } from "../";
 import { Images, argonTheme } from "../../../constants/argon";
 
-const { width, height } = Dimensions.get("screen");
+const { width, height } = Dimensions.get("window");
 
 class Register extends React.Component {
   render() {
