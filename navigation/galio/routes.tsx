@@ -12,7 +12,7 @@ import { createDrawerNavigator, DrawerItems } from "react-navigation";
 // screens
 import Article from "../../components/galio/Article";
 import ArticleCover from "../../components/galio/ArticleCover";
-import Cards from "../../components/galio/Card";
+import Cards from "../../components/galio/Cards";
 import Components from "../../components/galio/BaseComponents";
 import Login from "../../components/galio/Login";
 import News from "../../components/galio/News";
