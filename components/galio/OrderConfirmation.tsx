@@ -9,7 +9,7 @@ import {
 
 // galio components
 import { Text, Button, Block, NavBar, Icon } from "./galio-framework";
-import theme from "../../constants/theme";
+import theme from "../../constants/galio/theme";
 
 const { height } = Dimensions.get("window");
 const orderConfirmedImage = require("../../assets/images/order_confirmed.png");

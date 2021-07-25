@@ -12,7 +12,7 @@ import Constants from "expo-constants";
 
 // Galio components
 import { Button, Block, Card, Text, Icon, NavBar } from "./galio-framework";
-import theme from "../../constants/theme";
+import theme from "../../constants/galio/theme";
 
 const Author = (props) => (
   <Block row shadow middle space="between" style={styles.author}>

@@ -6,7 +6,7 @@ import Constants from "expo-constants";
 // galio components
 import { Block, Icon, Text, NavBar } from "./galio-framework";
 
-import theme from "../../constants/theme";
+import theme from "../../constants/galio/theme";
 
 const ArticleCover = (props) => (
   <Block flex>

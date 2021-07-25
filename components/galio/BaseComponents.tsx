@@ -21,7 +21,7 @@ import {
   Block,
 } from "./galio-framework";
 
-import theme from "../../constants/theme";
+import theme from "../../constants/galio/theme";
 
 const { width } = Dimensions.get("window");
 

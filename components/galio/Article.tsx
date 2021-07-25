@@ -14,7 +14,7 @@ const { statusBarHeight } = Constants;
 
 // galio components
 import { Block, Card, Text, Icon, NavBar } from "./galio-framework";
-import theme from "../../constants/theme";
+import theme from "../../constants/galio/theme";
 
 const { width, height } = Dimensions.get("window");
 

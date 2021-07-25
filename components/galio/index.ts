@@ -1,7 +1,7 @@
 import Article from "./Article";
 import ArticleCover from "./ArticleCover";
 import ArticleFeedV1 from "./ArticleFeedV1";
-import Card from "./Card";
+import Cards from "./Cards";
 import BaseComponents from "./BaseComponents";
 import Dashboard from "./Dashboard";
 import Grid from "./Grid";
@@ -15,7 +15,7 @@ export {
   Article,
   ArticleCover,
   ArticleFeedV1,
-  Card,
+  Cards,
   BaseComponents,
   Dashboard,
   Grid,

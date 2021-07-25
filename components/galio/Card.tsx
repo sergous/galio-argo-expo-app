@@ -10,7 +10,7 @@ import { LinearGradient } from "expo-linear-gradient";
 
 // Galio components
 import { Card, Block, NavBar, Icon } from "./galio-framework";
-import theme from "../../constants/theme";
+import theme from "../../constants/galio/theme";
 
 const { width } = Dimensions.get("screen");
 

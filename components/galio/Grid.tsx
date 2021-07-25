@@ -2,7 +2,7 @@ import React from "react";
 import { Dimensions, StyleSheet, Platform } from "react-native";
 // galio components
 import { Button, Icon, Block, Text, NavBar } from "./galio-framework";
-import theme from "../../constants/theme";
+import theme from "../../constants/galio/theme";
 
 const { width } = Dimensions.get("screen");
 const BASE_SIZE = theme.SIZES.BASE;

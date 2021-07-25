@@ -8,7 +8,7 @@ import {
 } from "react-native";
 // galio component
 import { Block, Button, Input, Text, NavBar } from "./galio-framework";
-import theme from "../../constants/theme";
+import theme from "../../constants/galio/theme";
 
 const { height, width } = Dimensions.get("window");
 

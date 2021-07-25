@@ -7,7 +7,7 @@ import * as shape from "d3-shape";
 
 // galio components
 import { Button, Block, Icon, Text, NavBar } from "./galio-framework";
-import theme from "../../constants/theme";
+import theme from "../../constants/galio/theme";
 
 const BASE_SIZE = theme.SIZES.BASE;
 const GRADIENT_BLUE = ["#6B84CA", "#8F44CE"];

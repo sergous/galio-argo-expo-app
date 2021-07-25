@@ -5,7 +5,7 @@ import { LinearGradient } from "expo-linear-gradient";
 import Constants from "expo-constants";
 // galio components
 import { Text, Button, Block, NavBar } from "./galio-framework";
-import theme from "../../constants/theme";
+import theme from "../../constants/galio/theme";
 
 const { width } = Dimensions.get("screen");
 const iphoneImage = require("../../assets/images/iphone.png");
