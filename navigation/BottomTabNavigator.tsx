@@ -3,15 +3,17 @@
  * https://reactnavigation.org/docs/bottom-tab-navigator
  */
 
+import { Image } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createStackNavigator } from "@react-navigation/stack";
 import * as React from "react";
 
 import Colors from "../constants/Colors";
+import { Images } from "../constants/argon";
 import useColorScheme from "../hooks/useColorScheme";
 import ArgonApp from "../screens/ArgonApp";
-import TabTwoScreen from "../screens/TabTwoScreen";
+import GalioApp from "../screens/GalioApp";
 import { BottomTabParamList, TabTwoParamList } from "../types";
 
 const BottomTab = createBottomTabNavigator<BottomTabParamList>();
@@ -29,16 +31,21 @@ export default function BottomTabNavigator() {
         component={ArgonApp}
         options={{
           tabBarIcon: ({ color }) => (
-            <TabBarIcon name="ios-code" color={color} />
+            <Image style={{ width: 70, height: 20 }} source={Images.Logo} />
           ),
         }}
       />
       <BottomTab.Screen
-        name="TabTwo"
-        component={TabTwoNavigator}
+        name="Galio"
+        component={GalioApp}
         options={{
           tabBarIcon: ({ color }) => (
-            <TabBarIcon name="ios-code" color={color} />
+            <img
+              width={30}
+              src={
+                "https://raw.githubusercontent.com/galio-org/galio/master/assets/galio-logo.png"
+              }
+            />
           ),
         }}
       />
@@ -53,18 +60,4 @@ function TabBarIcon(props: {
   color: string;
 }) {
   return <Ionicons size={30} style={{ marginBottom: -3 }} {...props} />;
-}
-
-const TabTwoStack = createStackNavigator<TabTwoParamList>();
-
-function TabTwoNavigator() {
-  return (
-    <TabTwoStack.Navigator>
-      <TabTwoStack.Screen
-        name="TabTwoScreen"
-        component={TabTwoScreen}
-        options={{ headerTitle: "Tab Two Title" }}
-      />
-    </TabTwoStack.Navigator>
-  );
 }
