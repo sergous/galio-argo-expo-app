@@ -10,7 +10,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { enableScreens } from "react-native-screens";
 enableScreens();
 
-import { Screens } from "../navigation/argon";
+import Screens from "../navigation/Screens";
 import { Images, articles, argonTheme } from "../constants/argon";
 
 // cache app images
